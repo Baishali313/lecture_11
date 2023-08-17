@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+    let myObj={
+        name: "Dominic",
+        age:56
+    };
+//json is used to display the output into string. this is known as serialization.
+    let myobj_serialized=JSON.stringify(myObj);
+
+    localStorage.setItem("myObj", myobj_serialized);
+
+
+    //similarly from string it can be converted using json.parse() method
+</script>    
+</html>
